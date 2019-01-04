@@ -1,0 +1,5 @@
+jupyter
+bash_kernel
+matplotlib
+tensorflow
+
