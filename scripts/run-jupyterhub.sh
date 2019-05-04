@@ -17,7 +17,7 @@ fi
 path_notebooks=$1
 path_key=$2
 path_cert=$3
-path=$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/docker
+path=$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/../docker
 
 is_abs "$path_notebooks"
 is_abs "$path_key"
